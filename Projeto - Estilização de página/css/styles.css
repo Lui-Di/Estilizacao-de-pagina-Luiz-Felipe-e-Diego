@@ -1,0 +1,107 @@
+.logo{
+	position: relative;
+	right: 540px;
+	width: 170px;
+}
+
+.logor{
+	position: absolute;
+	left: 50px;
+	top: 1290px;
+	width: 170px;
+}
+
+.insta{
+	filter: invert(100%);
+	position: absolute;
+	top: 1350px;
+	left: 95px;
+	width: 30px;
+}
+
+.face{
+	filter: invert(100%);
+	position: absolute;
+	top: 1350px;
+	left: 50px;
+	width: 30px;
+}
+
+.twitter{
+	filter: invert(100%);
+	position: absolute;
+	top: 1350px;
+	left: 140px;
+	width: 30px;
+}
+
+h1{
+	font-family:Poppins;
+	font-weight: 900;
+	width: 400;
+	height: 700;
+	color: hsl(192, 100%, 9%);
+	
+}
+
+body{
+	text-align: center;
+	font-family:'Open Sans';
+	font-weight: 500;
+	width: 400;
+	height: 700;
+	color: hsl(208, 11%, 55%);
+}
+
+input{
+	border-radius: 8px;
+	height: 37px;
+	width: 500px;
+	text-align: left;
+	font-weight: bold;
+}
+
+button {
+  background: hsl(322, 100%, 66%);
+  background-image: -webkit-linear-gradient(top, hsl(322, 100%, 66%), hsl(322, 100%, 66%));
+  background-image: -moz-linear-gradient(top, hsl(322, 100%, 66%), hsl(322, 100%, 66%));
+  background-image: -ms-linear-gradient(top, hsl(322, 100%, 66%), hsl(322, 100%, 66%));
+  background-image: -o-linear-gradient(top, hsl(322, 100%, 66%), hsl(322, 100%, 66%));
+  background-image: linear-gradient(to bottom, hsl(322, 100%, 66%), hsl(322, 100%, 66%));
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 10px;
+  font-family: Poppins;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 15px 40px 15px 40px;
+  text-decoration: none;
+}
+button:hover{
+	background: red;
+}
+
+.rodape{
+	position: absolute;
+	top: 1290px;
+	right: 75px;
+	font-family: 'Open Sans';
+	color: hsl(208, 11%, 55%);
+	font-weight: bold;
+}
+
+footer {
+	height: 250px;
+	background-color: hsl(192,100%,9%);
+	color: white;
+}
+
+.copyright{
+	position: absolute;
+	top: 1400px;
+	right: 75px;
+	font-family: 'Open Sans';
+	color: hsl(208, 11%, 55%);
+	font-weight: 900;
+}
